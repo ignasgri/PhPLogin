@@ -56,7 +56,10 @@ and footer.php contains only two lines of code
 </body>
 </html>
 ```
-
+## Submit Signup form.
+```
+<form class="signup-form" action="includes/signup.inc.php" method="POST">
+```
 ### How to run on your machine
 1. Downlaod Hampp Control Panel
 2. Clone this project to your PC 
