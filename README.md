@@ -13,13 +13,14 @@ user_uid varchar(256) not null,
 user_pwd varchar(256) not null
 );
 ```
-# Include code to other page
+
+## Include nav bar to other pages!  
 ```
 <?php 
 	include_once 'header.php';
  ?>
 ```
-and contains
+header.php contains only code below
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -49,6 +50,11 @@ and contains
 </nav>
 
 </header>
+```
+and footer.php contains only two lines of code
+```
+</body>
+</html>
 ```
 
 ### How to run on your machine
