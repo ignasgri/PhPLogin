@@ -20,6 +20,17 @@ user_pwd varchar(256) not null
 	include_once 'header.php';
  ?>
 ```
+```<div class="content">
+		<h1>Your text</h1>
+		<p>More text text</p>
+		<img src="your_image.jpg">
+	</div>
+```
+```
+</body>
+</html>
+```
+
 header.php contains only code below
 ```
 <!DOCTYPE html>

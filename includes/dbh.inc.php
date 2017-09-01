@@ -2,9 +2,9 @@
 
 $dbServername = "localhost";
 $dbUsername = "root";
-$dbPasseord = "";
+$dbPassword = "";
 $dbName = "loginsystem";
 
-$conn = mysqli_connect($dbServername, $dbUsername, $dbPasseord, $dbName);
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 // dont need to close php file is this file contains only php script
